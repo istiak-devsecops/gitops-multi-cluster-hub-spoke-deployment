@@ -1,9 +1,10 @@
 # GitOps: Multi cluster hube-spoke deployment using ArgoCD
 
 This guide sets up a hub-and-spoke GitOps setup on EKS using ArgoCD. You’ll install the required CLI tools, create one hub cluster and two spoke clusters, expose the ArgoCD UI, and connect each spoke to the hub for centralized deployment management.
+
 ---
 
-## Step 1: pre requisite
+## Step 1: prerequisite
 - install kubectl: https://kubernetes.io/docs/tasks/tools/
 ```
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
